@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     # Access the environment variable
     my_variable = os.getenv('my_variable')
-    return f"Value of MY_VARIABLE is: {my_variable}"
+    return f"this is from slot 2"
 
 if __name__ == "__main__":
     app.run()
