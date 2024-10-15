@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return f"this is from slot 1"
+    return f"this is from slot 1 updated"
 
 if __name__ == "__main__":
     app.run()
